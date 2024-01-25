@@ -1,12 +1,84 @@
+.luzRoja{
+    background-color: #f32020;
+    border: solid 4px;
+    border-radius: 100px;
+    height: 50px;
+    width: 50px;
+    margin: 5px;
 
-/* 
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+.luzAmbar{
+    background-color:#ffbd16;
+    border: solid 4px;
+    border-radius: 100px;
+    height: 50px;
+    width: 50px;
+    margin: 5px;
 
-*/
+}
+
+.luzVerde{
+    background-color:#19d219;
+    border: solid 4px;
+    border-radius: 100px;
+    height: 50px;
+    width: 50px;
+    margin: 5px;
+
+}
+
+.luzLila{
+    background-color:#ba6bf7;
+    border: solid 4px;
+    border-radius: 100px;
+    height: 50px;
+    width: 50px;
+    margin: 5px;
+}
+
+.container{
+    background-color: #ffd42a;
+    margin:auto;
+    padding: 10px;
+    border-radius: 10px;
+    width: fit-content;
+}
+
+.on{
+    background-image: radial-gradient(circle, #ffffff00, #ffffff8e);
+    border: 0.5px solid #ffffff6a;
+    box-shadow: 0 0px 15px 0 #ffffff, 0 0px 15px 0 #ffffff;
+}
+
+.off{
+    background-image: radial-gradient(circle, #32323200, #23232365);
+    border: 0.5px solid #3232328e;
+ 
+}
+
+/* Estilos botón */
+button {
+    background-image: linear-gradient(#b2ccf5, #2289ff);
+    border: none;
+    margin: 20px;
+    padding: 1rem;
+    width: 60px;
+    height: 50px;
+    border-radius: 100%;
+    color: black;
+    box-shadow: 0 0.4rem #0b73e9;
+    cursor: pointer;
+   }
+   
+   button:active {
+    color: white;
+    box-shadow: 0 0.2rem #dfd9d9;
+    transform: translateY(0.5rem);
+   }
+   
+   button:hover{
+    background-image: radial-gradient(#b2ccf5, #2289ff);
+    color: white;
+   }
+   
